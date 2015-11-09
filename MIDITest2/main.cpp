@@ -52,9 +52,9 @@ midi_test()
 		Midi::deviceName(i, name);
 		printf("%d+Device Name: %s\n", i, name);
 	}
-	printf("please select your preferred midi device: ");
-	char * inputMidiDevice = getline();
-	try
+	//printf("please select your preferred midi device: ");
+	//char * inputMidiDevice = getline();
+	/*try
 	{
 		midi_device = atoi(inputMidiDevice);
 	}
@@ -62,32 +62,40 @@ midi_test()
 		printf("Incorrect Midi Device!");
 		getch();
 		exit(0);
-	}
-	Midi::deviceName(midi_device, name);
-	printf("Your Device Name: %s\n", name);
-	Midi *midi = new Midi(midi_device);
+	}*/
+	//Midi::deviceName(midi_device, name);
+	//printf("Your Device Name: %s\n", name);
+	Midi *midi[10];
+		
 	MidiEvent buf[MAX_MIDI_EVENTS];
-
-	midi->threadBegin();
+	int device_count = Midi::deviceCount();
+	for (int i = 0; i < device_count; i++)
+	{
+		midi[i] = new Midi(i);
+		midi[i]->threadBegin();
+	}
 	printf("Sleeping ...\n");
 	//Sleep(50 * 1000);
 	while (!_kbhit())
 	{
-		int count = midi->poll(buf);
-		for (int i = 0; i < count; i++) {
-			printf("Type: %02d  Channel: %02d  Value: %03d\n", buf[i].type, buf[i].channel, buf[i].value);
+		for (int j = 0; j < device_count; j++)
+		{
+			int count = midi[j]->poll(buf);
+			for (int i = 0; i < count; i++) {
+				printf("device:%02d Type: %02d  Channel: %02d  Value: %03d\n",j, buf[i].type, buf[i].channel, buf[i].value);
+			}
 		}
 
 	}
 	printf("Waking ...\n");
-	midi->threadEnd();
+	midi[1]->threadEnd();
 
 	/*printf("Dumping buffer:\n");
 	for (int i = 0; i < count; i++) {
 	printf("Type: %02d  Channel: %02d  Value: %03d\n", buf[i].type, buf[i].channel, buf[i].value);
 	*/
 
-	delete midi;
+	delete midi[1];
 }
 
 void

@@ -1,5 +1,10 @@
-﻿Build started 11/9/2015 8:22:22 PM.
+﻿Build started 11/10/2015 12:11:51 AM.
+     1>Project "E:\projects\Ugen\MIDIUIUgen\Project\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because E:/projects/Ugen/MIDIUIUgen/Project/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "E:\projects\Ugen\MIDIUIUgen\Project\ZERO_CHECK.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:01.39

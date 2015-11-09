@@ -1,5 +1,23 @@
-﻿Build started 11/9/2015 8:22:16 PM.
+﻿Build started 11/10/2015 1:56:23 AM.
+     1>Project "E:\projects\Ugen\MIDIUIUgen\Project\MIDIUIUgen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\external_libraries\pthread-win32" /I"E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\include\plugin_interface" /I"E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\include\common" /I"E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\external_libraries\libsndfile" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D MIDIUIUgen_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"MIDIUIUgen.dir\Release\\" /Fd"MIDIUIUgen.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp
+         MIDIUIUgen.cpp
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(44): warning C4244: 'initializing' : conversion from 'float' to 'uint8', possible loss of data
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(45): warning C4244: 'initializing' : conversion from 'float' to 'uint8', possible loss of data
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(46): warning C4244: 'initializing' : conversion from 'float' to 'uint8', possible loss of data
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(103): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+     1>E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp(103): warning C4154: deletion of an array expression; conversion to pointer supplied
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\Ugen\MIDIUIUgen\Project\Release\MIDIUIUgen.scx" /INCREMENTAL:NO /NOLOGO MIDI.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:/projects/Ugen/MIDIUIUgen/Project/Release/MIDIUIUgen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/projects/Ugen/MIDIUIUgen/Project/Release/MIDIUIUgen.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL MIDIUIUgen.dir\Release\utils.obj
+         MIDIUIUgen.dir\Release\MIDIUIUgen.obj
+            Creating library E:/projects/Ugen/MIDIUIUgen/Project/Release/MIDIUIUgen.lib and object E:/projects/Ugen/MIDIUIUgen/Project/Release/MIDIUIUgen.exp
+         MIDIUIUgen.vcxproj -> E:\projects\Ugen\MIDIUIUgen\Project\Release\MIDIUIUgen.scx
+     1>Done Building Project "E:\projects\Ugen\MIDIUIUgen\Project\MIDIUIUgen.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:01.88

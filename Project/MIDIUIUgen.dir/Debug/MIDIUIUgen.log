@@ -1,5 +1,19 @@
-﻿Build started 11/9/2015 8:22:22 PM.
+﻿Build started 11/10/2015 12:11:56 AM.
+     1>Project "E:\projects\Ugen\MIDIUIUgen\Project\MIDIUIUgen.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule E:/projects/Ugen/MIDIUIUgen/CMakeLists.txt
+         CMake does not need to re-run because E:\projects\Ugen\MIDIUIUgen\Project\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\include\plugin_interface" /I"E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\include\common" /I"E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\external_libraries\libsndfile" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D MIDIUIUgen_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"MIDIUIUgen.dir\Debug\\" /Fd"MIDIUIUgen.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\utils.cpp E:\projects\Ugen\MIDIUIUgen\MIDIUIUgen.cpp
+         utils.cpp
+     1>..\utils.cpp(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         MIDIUIUgen.cpp
+     1>E:\projects\Ugen\MIDIUIUgen\SuperCollider-Source\include\common\SC_Lock.h(25): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Generating Code...
+     1>e:\projects\ugen\midiuiugen\utils.cpp(113): warning C4700: uninitialized local variable 'nRes' used
+     1>Done Building Project "E:\projects\Ugen\MIDIUIUgen\Project\MIDIUIUgen.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.02
+Time Elapsed 00:00:02.55
