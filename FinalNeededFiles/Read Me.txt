@@ -1,0 +1,4 @@
+Copy MIDIUIUgen into SupercolliderPath/plugins
+Copy Midi.dll into SupercolliderPath
+Copy MIDIUIUgen.sc SupercolliderPath/SCClassLibrary
+use it like MouseX.kr, etc anywhere.
