@@ -1,0 +1,499 @@
+ pthreadVC
+
+ Timestamp is 55488514 (Tue May 05 13:23:40 2015)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010000H .textbss                DATA
+ 0002:00000000 0000d740H .text                   CODE
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000104H .CRT$XCZ                DATA
+ 0003:00000208 00000104H .CRT$XIA                DATA
+ 0003:0000030c 00000104H .CRT$XIAA               DATA
+ 0003:00000410 00000104H .CRT$XIZ                DATA
+ 0003:00000520 00000ab4H .rdata                  DATA
+ 0003:00000fd4 00000182H .rdata$debug            DATA
+ 0003:00001158 00000104H .rtc$IAA                DATA
+ 0003:0000125c 00000104H .rtc$IMZ                DATA
+ 0003:00001360 00000104H .rtc$IZZ                DATA
+ 0003:00001464 00000104H .rtc$TAA                DATA
+ 0003:00001568 00000104H .rtc$TMZ                DATA
+ 0003:0000166c 00000104H .rtc$TZZ                DATA
+ 0003:00001770 000001c2H .xdata$x                DATA
+ 0003:00001940 0000128fH .edata                  DATA
+ 0004:00000000 0000016dH .data                   DATA
+ 0004:00000180 00000558H .bss                    DATA
+ 0005:00000000 0000003cH .idata$2                DATA
+ 0005:0000003c 00000014H .idata$3                DATA
+ 0005:00000050 00000230H .idata$4                DATA
+ 0005:00000280 00000230H .idata$5                DATA
+ 0005:000004b0 000007caH .idata$6                DATA
+ 0006:00000000 000001c0H .rsrc$01                DATA
+ 0006:000001c0 00000f70H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        10001000     <linker-defined>
+ 0001:00010000       __enc$textbss$end          10011000     <linker-defined>
+ 0002:00000a50       _ptw32_InterlockedCompareExchange@12 10011a50 f   pthread.obj
+ 0002:00000ae0       _ptw32_InterlockedExchange@8 10011ae0 f   pthread.obj
+ 0002:00000b60       _ptw32_is_attr             10011b60 f   pthread.obj
+ 0002:00000be0       _ptw32_processInitialize   10011be0 f   pthread.obj
+ 0002:00000d20       _ptw32_processTerminate    10011d20 f   pthread.obj
+ 0002:00000f00       _ptw32_threadStart@4       10011f00 f   pthread.obj
+ 0002:000010d0       _ptw32_threadDestroy       100120d0 f   pthread.obj
+ 0002:00001240       _ptw32_tkAssocCreate       10012240 f   pthread.obj
+ 0002:000013a0       _ptw32_tkAssocDestroy      100123a0 f   pthread.obj
+ 0002:00001430       _ptw32_callUserDestroyRoutines 10012430 f   pthread.obj
+ 0002:000015b0       _ptw32_semwait             100125b0 f   pthread.obj
+ 0002:00001700       _ptw32_throw               10012700 f   pthread.obj
+ 0002:00001830       _ptw32_pop_cleanup_all     10012830 f   pthread.obj
+ 0002:00001890       _ptw32_get_exception_services_code 10012890 f   pthread.obj
+ 0002:000018c0       _ptw32_getprocessors       100128c0 f   pthread.obj
+ 0002:00001a00       _pthread_attr_init         10012a00 f   pthread.obj
+ 0002:00001ae0       _pthread_attr_destroy      10012ae0 f   pthread.obj
+ 0002:00001b80       _pthread_attr_getdetachstate 10012b80 f   pthread.obj
+ 0002:00001c00       _pthread_attr_setdetachstate 10012c00 f   pthread.obj
+ 0002:00001c90       _pthread_attr_getstackaddr 10012c90 f   pthread.obj
+ 0002:00001d00       _pthread_attr_setstackaddr 10012d00 f   pthread.obj
+ 0002:00001d70       _pthread_attr_getstacksize 10012d70 f   pthread.obj
+ 0002:00001de0       _pthread_attr_setstacksize 10012de0 f   pthread.obj
+ 0002:00001e50       _pthread_attr_getscope     10012e50 f   pthread.obj
+ 0002:00001ea0       _pthread_attr_setscope     10012ea0 f   pthread.obj
+ 0002:00001f20       _pthread_barrier_init      10012f20 f   pthread.obj
+ 0002:00002090       _pthread_barrier_destroy   10013090 f   pthread.obj
+ 0002:00002190       _pthread_barrier_wait      10013190 f   pthread.obj
+ 0002:000022f0       _pthread_barrierattr_init  100132f0 f   pthread.obj
+ 0002:00002390       _pthread_barrierattr_destroy 10013390 f   pthread.obj
+ 0002:00002430       _pthread_barrierattr_getpshared 10013430 f   pthread.obj
+ 0002:000024a0       _pthread_barrierattr_setpshared 100134a0 f   pthread.obj
+ 0002:00002530       _pthread_setcancelstate    10013530 f   pthread.obj
+ 0002:000026c0       _pthread_setcanceltype     100136c0 f   pthread.obj
+ 0002:00002850       _pthread_testcancel        10013850 f   pthread.obj
+ 0002:00002990       _ptw32_RegisterCancelation 10013990 f   pthread.obj
+ 0002:00002ad0       _pthread_cancel            10013ad0 f   pthread.obj
+ 0002:00002dc0       _ptw32_pop_cleanup         10013dc0 f   pthread.obj
+ 0002:00002e70       _ptw32_push_cleanup        10013e70 f   pthread.obj
+ 0002:00002f00       _ptw32_cond_check_need_init 10013f00 f   pthread.obj
+ 0002:00002fc0       _pthread_condattr_init     10013fc0 f   pthread.obj
+ 0002:00003050       _pthread_condattr_destroy  10014050 f   pthread.obj
+ 0002:000030f0       _pthread_condattr_getpshared 100140f0 f   pthread.obj
+ 0002:00003160       _pthread_condattr_setpshared 10014160 f   pthread.obj
+ 0002:000031f0       _pthread_cond_init         100141f0 f   pthread.obj
+ 0002:00003460       _pthread_cond_destroy      10014460 f   pthread.obj
+ 0002:000037c0       _pthread_cond_wait         100147c0 f   pthread.obj
+ 0002:00003c60       _pthread_cond_timedwait    10014c60 f   pthread.obj
+ 0002:00003cd0       _pthread_cond_signal       10014cd0 f   pthread.obj
+ 0002:00003fb0       _pthread_cond_broadcast    10014fb0 f   pthread.obj
+ 0002:00004000       _pthread_create            10015000 f   pthread.obj
+ 0002:000042e0       _DllMain@12                100152e0 f   pthread.obj
+ 0002:000043a0       _pthread_exit              100153a0 f   pthread.obj
+ 0002:00004430       _pthread_kill              10015430 f   pthread.obj
+ 0002:00004520       _pthread_once              10015520 f   pthread.obj
+ 0002:000046e0       _pthread_self              100156e0 f   pthread.obj
+ 0002:000048e0       _pthread_equal             100158e0 f   pthread.obj
+ 0002:00004950       _pthread_setconcurrency    10015950 f   pthread.obj
+ 0002:000049a0       _pthread_getconcurrency    100159a0 f   pthread.obj
+ 0002:000049e0       _ptw32_new                 100159e0 f   pthread.obj
+ 0002:00004ba0       _ptw32_threadReusePop      10015ba0 f   pthread.obj
+ 0002:00004cc0       _ptw32_threadReusePush     10015cc0 f   pthread.obj
+ 0002:00004e00       _pthreadCancelableWait     10015e00 f   pthread.obj
+ 0002:00005060       _pthreadCancelableTimedWait 10016060 f   pthread.obj
+ 0002:000050c0       _ptw32_mutex_check_need_init 100160c0 f   pthread.obj
+ 0002:000051c0       _pthread_mutex_init        100161c0 f   pthread.obj
+ 0002:00005350       _pthread_mutex_destroy     10016350 f   pthread.obj
+ 0002:00005520       _pthread_mutexattr_init    10016520 f   pthread.obj
+ 0002:000055c0       _pthread_mutexattr_destroy 100165c0 f   pthread.obj
+ 0002:00005660       _pthread_mutexattr_getpshared 10016660 f   pthread.obj
+ 0002:000056d0       _pthread_mutexattr_setpshared 100166d0 f   pthread.obj
+ 0002:00005760       _pthread_mutexattr_settype 10016760 f   pthread.obj
+ 0002:00005800       _pthread_mutexattr_gettype 10016800 f   pthread.obj
+ 0002:00005870       _pthread_mutex_lock        10016870 f   pthread.obj
+ 0002:00005ad0       _pthread_mutex_timedlock   10016ad0 f   pthread.obj
+ 0002:00005e90       _pthread_mutex_unlock      10016e90 f   pthread.obj
+ 0002:00006020       _pthread_mutex_trylock     10017020 f   pthread.obj
+ 0002:00006140       _pthread_mutexattr_setkind_np 10017140 f   pthread.obj
+ 0002:000061a0       _pthread_mutexattr_getkind_np 100171a0 f   pthread.obj
+ 0002:00006200       _pthread_getw32threadhandle_np 10017200 f   pthread.obj
+ 0002:00006240       _pthread_delay_np          10017240 f   pthread.obj
+ 0002:00006460       _pthread_num_processors_np 10017460 f   pthread.obj
+ 0002:00006500       _pthread_win32_process_attach_np 10017500 f   pthread.obj
+ 0002:00006820       _pthread_win32_process_detach_np 10017820 f   pthread.obj
+ 0002:00006960       _pthread_win32_thread_attach_np 10017960 f   pthread.obj
+ 0002:000069a0       _pthread_win32_thread_detach_np 100179a0 f   pthread.obj
+ 0002:00006a50       _pthread_win32_test_features_np 10017a50 f   pthread.obj
+ 0002:00006aa0       _pthread_timechange_handler_np 10017aa0 f   pthread.obj
+ 0002:00006ba0       _ptw32_rwlock_check_need_init 10017ba0 f   pthread.obj
+ 0002:00006c60       _ptw32_rwlock_cancelwrwait 10017c60 f   pthread.obj
+ 0002:00006cf0       _pthread_rwlock_init       10017cf0 f   pthread.obj
+ 0002:00006ea0       _pthread_rwlock_destroy    10017ea0 f   pthread.obj
+ 0002:00007170       _pthread_rwlockattr_init   10018170 f   pthread.obj
+ 0002:00007210       _pthread_rwlockattr_destroy 10018210 f   pthread.obj
+ 0002:000072b0       _pthread_rwlockattr_getpshared 100182b0 f   pthread.obj
+ 0002:00007320       _pthread_rwlockattr_setpshared 10018320 f   pthread.obj
+ 0002:000073b0       _pthread_rwlock_rdlock     100183b0 f   pthread.obj
+ 0002:00007550       _pthread_rwlock_timedrdlock 10018550 f   pthread.obj
+ 0002:00007720       _pthread_rwlock_wrlock     10018720 f   pthread.obj
+ 0002:00007960       _pthread_rwlock_timedwrlock 10018960 f   pthread.obj
+ 0002:00007bb0       _pthread_rwlock_unlock     10018bb0 f   pthread.obj
+ 0002:00007d30       _pthread_rwlock_tryrdlock  10018d30 f   pthread.obj
+ 0002:00007ed0       _pthread_rwlock_trywrlock  10018ed0 f   pthread.obj
+ 0002:000080d0       _pthread_attr_setschedpolicy 100190d0 f   pthread.obj
+ 0002:00008140       _pthread_attr_getschedpolicy 10019140 f   pthread.obj
+ 0002:000081c0       _pthread_attr_setschedparam 100191c0 f   pthread.obj
+ 0002:00008280       _pthread_attr_getschedparam 10019280 f   pthread.obj
+ 0002:00008310       _pthread_attr_setinheritsched 10019310 f   pthread.obj
+ 0002:000083a0       _pthread_attr_getinheritsched 100193a0 f   pthread.obj
+ 0002:00008420       _pthread_setschedparam     10019420 f   pthread.obj
+ 0002:000084d0       _ptw32_setthreadpriority   100194d0 f   pthread.obj
+ 0002:00008600       _pthread_getschedparam     10019600 f   pthread.obj
+ 0002:000086a0       _sched_get_priority_max    100196a0 f   pthread.obj
+ 0002:00008720       _sched_get_priority_min    10019720 f   pthread.obj
+ 0002:000087a0       _sched_setscheduler        100197a0 f   pthread.obj
+ 0002:000088a0       _sched_getscheduler        100198a0 f   pthread.obj
+ 0002:00008980       _sched_yield               10019980 f   pthread.obj
+ 0002:000089e0       _sem_init                  100199e0 f   pthread.obj
+ 0002:00008b50       _sem_destroy               10019b50 f   pthread.obj
+ 0002:00008d30       _sem_trywait               10019d30 f   pthread.obj
+ 0002:00008e30       _sem_wait                  10019e30 f   pthread.obj
+ 0002:00009020       _sem_timedwait             1001a020 f   pthread.obj
+ 0002:000092f0       _sem_post                  1001a2f0 f   pthread.obj
+ 0002:00009400       _sem_post_multiple         1001a400 f   pthread.obj
+ 0002:00009550       _sem_getvalue              1001a550 f   pthread.obj
+ 0002:00009630       _sem_open                  1001a630 f   pthread.obj
+ 0002:00009690       _sem_close                 1001a690 f   pthread.obj
+ 0002:000096f0       _sem_unlink                1001a6f0 f   pthread.obj
+ 0002:00009750       _ptw32_spinlock_check_need_init 1001a750 f   pthread.obj
+ 0002:00009810       _pthread_spin_init         1001a810 f   pthread.obj
+ 0002:000099f0       _pthread_spin_destroy      1001a9f0 f   pthread.obj
+ 0002:00009b40       _pthread_spin_lock         1001ab40 f   pthread.obj
+ 0002:00009c30       _pthread_spin_unlock       1001ac30 f   pthread.obj
+ 0002:00009d20       _pthread_spin_trylock      1001ad20 f   pthread.obj
+ 0002:00009e30       _pthread_detach            1001ae30 f   pthread.obj
+ 0002:00009ed0       _pthread_join              1001aed0 f   pthread.obj
+ 0002:0000a0d0       _pthread_key_create        1001b0d0 f   pthread.obj
+ 0002:0000a1d0       _pthread_key_delete        1001b1d0 f   pthread.obj
+ 0002:0000a350       _pthread_setspecific       1001b350 f   pthread.obj
+ 0002:0000a540       _pthread_getspecific       1001b540 f   pthread.obj
+ 0002:0000a5f6       _WSASetLastError@4         1001b5f6 f   ws2_32:WS2_32.dll
+ 0002:0000a5fc       _WSAGetLastError@0         1001b5fc f   ws2_32:WS2_32.dll
+ 0002:0000a602       _InitializeCriticalSection@4 1001b602 f   kernel32:KERNEL32.dll
+ 0002:0000a608       _DeleteCriticalSection@4   1001b608 f   kernel32:KERNEL32.dll
+ 0002:0000a60e       _LeaveCriticalSection@4    1001b60e f   kernel32:KERNEL32.dll
+ 0002:0000a614       _EnterCriticalSection@4    1001b614 f   kernel32:KERNEL32.dll
+ 0002:0000a61a       _CloseHandle@4             1001b61a f   kernel32:KERNEL32.dll
+ 0002:0000a620       _InterlockedIncrement@4    1001b620 f   kernel32:KERNEL32.dll
+ 0002:0000a626       _WaitForSingleObject@8     1001b626 f   kernel32:KERNEL32.dll
+ 0002:0000a62c       _GetProcessAffinityMask@12 1001b62c f   kernel32:KERNEL32.dll
+ 0002:0000a632       _GetCurrentProcess@0       1001b632 f   kernel32:KERNEL32.dll
+ 0002:0000a638       _InterlockedDecrement@4    1001b638 f   kernel32:KERNEL32.dll
+ 0002:0000a63e       _ResetEvent@4              1001b63e f   kernel32:KERNEL32.dll
+ 0002:0000a644       _SetThreadContext@8        1001b644 f   kernel32:KERNEL32.dll
+ 0002:0000a64a       _GetThreadContext@8        1001b64a f   kernel32:KERNEL32.dll
+ 0002:0000a650       _SetEvent@4                1001b650 f   kernel32:KERNEL32.dll
+ 0002:0000a656       _ResumeThread@4            1001b656 f   kernel32:KERNEL32.dll
+ 0002:0000a65c       _SuspendThread@4           1001b65c f   kernel32:KERNEL32.dll
+ 0002:0000a662       _GetThreadPriority@4       1001b662 f   kernel32:KERNEL32.dll
+ 0002:0000a668       _InterlockedExchange@8     1001b668 f   kernel32:KERNEL32.dll
+ 0002:0000a66e       _DuplicateHandle@28        1001b66e f   kernel32:KERNEL32.dll
+ 0002:0000a674       _GetCurrentThread@0        1001b674 f   kernel32:KERNEL32.dll
+ 0002:0000a67a       _GetCurrentThreadId@0      1001b67a f   kernel32:KERNEL32.dll
+ 0002:0000a680       _CreateEventA@16           1001b680 f   kernel32:KERNEL32.dll
+ 0002:0000a686       _WaitForMultipleObjects@16 1001b686 f   kernel32:KERNEL32.dll
+ 0002:0000a68c       _Sleep@4                   1001b68c f   kernel32:KERNEL32.dll
+ 0002:0000a692       _FreeLibrary@4             1001b692 f   kernel32:KERNEL32.dll
+ 0002:0000a698       _GetProcAddress@8          1001b698 f   kernel32:KERNEL32.dll
+ 0002:0000a69e       _LoadLibraryA@4            1001b69e f   kernel32:KERNEL32.dll
+ 0002:0000a6a4       _TlsSetValue@8             1001b6a4 f   kernel32:KERNEL32.dll
+ 0002:0000a6aa       _SetThreadPriority@8       1001b6aa f   kernel32:KERNEL32.dll
+ 0002:0000a6b0       _GetLastError@0            1001b6b0 f   kernel32:KERNEL32.dll
+ 0002:0000a6b6       _OpenProcess@12            1001b6b6 f   kernel32:KERNEL32.dll
+ 0002:0000a6bc       _GetCurrentProcessId@0     1001b6bc f   kernel32:KERNEL32.dll
+ 0002:0000a6c2       _CreateSemaphoreA@16       1001b6c2 f   kernel32:KERNEL32.dll
+ 0002:0000a6c8       _ReleaseSemaphore@12       1001b6c8 f   kernel32:KERNEL32.dll
+ 0002:0000a6ce       _GetExitCodeThread@8       1001b6ce f   kernel32:KERNEL32.dll
+ 0002:0000a6d4       _TlsAlloc@0                1001b6d4 f   kernel32:KERNEL32.dll
+ 0002:0000a6da       _TlsFree@4                 1001b6da f   kernel32:KERNEL32.dll
+ 0002:0000a6e0       _SetLastError@4            1001b6e0 f   kernel32:KERNEL32.dll
+ 0002:0000a6e6       _TlsGetValue@4             1001b6e6 f   kernel32:KERNEL32.dll
+ 0002:0000a6f0       __RTC_CheckEsp             1001b6f0 f   MSVCRTD:_stack_.obj
+ 0002:0000a720       @_RTC_CheckStackVars@8     1001b720 f   MSVCRTD:_stack_.obj
+ 0002:0000a7a0       @_RTC_AllocaHelper@12      1001b7a0 f   MSVCRTD:_stack_.obj
+ 0002:0000a7e0       @_RTC_CheckStackVars2@12   1001b7e0 f   MSVCRTD:_stack_.obj
+ 0002:0000a8f0       __RTC_InitBase             1001b8f0 f   MSVCRTD:_init_.obj
+ 0002:0000a930       __RTC_Shutdown             1001b930 f   MSVCRTD:_init_.obj
+ 0002:0000a948       _free                      1001b948 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a94e       __endthreadex              1001b94e f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a954       __setjmp3                  1001b954 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a95a       _memcpy                    1001b95a f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a960       _calloc                    1001b960 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a966       __errno                    1001b966 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a96c       _longjmp                   1001b96c f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a972       _exit                      1001b972 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a978       _malloc                    1001b978 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a980       @__security_check_cookie@4 1001b980 f   MSVCRTD:secchk.obj
+ 0002:0000a992       __beginthreadex            1001b992 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a998       _memset                    1001b998 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a99e       __ftime64                  1001b99e f   MSVCRTD:MSVCR90D.dll
+ 0002:0000a9b0       __allmul                   1001b9b0 f   MSVCRTD:llmul.obj
+ 0002:0000aaa0       __CRT_INIT@12              1001baa0 f   MSVCRTD:crtdll.obj
+ 0002:0000ae70       _NtCurrentTeb              1001be70 f i MSVCRTD:crtdll.obj
+ 0002:0000ae80       __DllMainCRTStartup@12     1001be80 f   MSVCRTD:crtdll.obj
+ 0002:0000b100       _DebuggerKnownHandle       1001c100 f   MSVCRTD:_error_.obj
+ 0002:0000b1e0       ?_RTC_Failure@@YAXPAXH@Z   1001c1e0 f   MSVCRTD:_error_.obj
+ 0002:0000b5b0       ?_RTC_StackFailure@@YAXPAXPBD@Z 1001c5b0 f   MSVCRTD:_error_.obj
+ 0002:0000b6f0       ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z 1001c6f0 f   MSVCRTD:_error_.obj
+ 0002:0000b900       __RTC_UninitUse            1001c900 f   MSVCRTD:_error_.obj
+ 0002:0000ba30       __RTC_NumErrors            1001ca30 f   MSVCRTD:_userapi_.obj
+ 0002:0000ba40       __RTC_GetErrDesc           1001ca40 f   MSVCRTD:_userapi_.obj
+ 0002:0000ba60       __RTC_SetErrorType         1001ca60 f   MSVCRTD:_userapi_.obj
+ 0002:0000ba90       __RTC_SetErrorFunc         1001ca90 f   MSVCRTD:_userapi_.obj
+ 0002:0000bac0       __RTC_SetErrorFuncW        1001cac0 f   MSVCRTD:_userapi_.obj
+ 0002:0000baf0       ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z 1001caf0 f   MSVCRTD:_userapi_.obj
+ 0002:0000bb00       ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z 1001cb00 f   MSVCRTD:_userapi_.obj
+ 0002:0000bb06       __CRT_RTC_INITW            1001cb06 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000bb10       ___report_gsfailure        1001cb10 f   MSVCRTD:gs_report.obj
+ 0002:0000bc70       ___clean_type_info_names   1001cc70 f   MSVCRTD:tncleanup.obj
+ 0002:0000bc90       __onexit                   1001cc90 f   MSVCRTD:atonexit.obj
+ 0002:0000bde0       _atexit                    1001cde0 f   MSVCRTD:atonexit.obj
+ 0002:0000be10       __RTC_Initialize           1001ce10 f   MSVCRTD:_initsect_.obj
+ 0002:0000be40       __RTC_Terminate            1001ce40 f   MSVCRTD:_initsect_.obj
+ 0002:0000be70       __encode_pointer           1001ce70 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000be76       __malloc_dbg               1001ce76 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000be7c       __free_dbg                 1001ce7c f   MSVCRTD:MSVCR90D.dll
+ 0002:0000be82       __encoded_null             1001ce82 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000be88       __decode_pointer           1001ce88 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000be8e       __CrtSetCheckCount         1001ce8e f   MSVCRTD:MSVCR90D.dll
+ 0002:0000bea0       __ValidateImageBase        1001cea0 f   MSVCRTD:pesect.obj
+ 0002:0000bf20       __FindPESection            1001cf20 f   MSVCRTD:pesect.obj
+ 0002:0000bfc0       __IsNonwritableInCurrentImage 1001cfc0 f   MSVCRTD:pesect.obj
+ 0002:0000c116       __initterm                 1001d116 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c11c       __initterm_e               1001d11c f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c122       __amsg_exit                1001d122 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c130       ___security_init_cookie    1001d130 f   MSVCRTD:gs_support.obj
+ 0002:0000c242       ___CppXcptFilter           1001d242 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c250       __except_handler4          1001d250 f   MSVCRTD:chandler4gs.obj
+ 0002:0000c290       ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z 1001d290 f   MSVCRTD:_pdblkup_.obj
+ 0002:0000c84c       __crt_debugger_hook        1001d84c f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c852       ___clean_type_info_names_internal 1001d852 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c858       __unlock                   1001d858 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c85e       ___dllonexit               1001d85e f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c864       __lock                     1001d864 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c86a       __except_handler4_common   1001d86a f   MSVCRTD:MSVCR90D.dll
+ 0002:0000c870       _InterlockedCompareExchange@12 1001d870 f   kernel32:KERNEL32.dll
+ 0002:0000c876       _IsDebuggerPresent@0       1001d876 f   kernel32:KERNEL32.dll
+ 0002:0000c87c       _RaiseException@16         1001d87c f   kernel32:KERNEL32.dll
+ 0002:0000c882       _DebugBreak@0              1001d882 f   kernel32:KERNEL32.dll
+ 0002:0000c888       _WideCharToMultiByte@32    1001d888 f   kernel32:KERNEL32.dll
+ 0002:0000c88e       _MultiByteToWideChar@24    1001d88e f   kernel32:KERNEL32.dll
+ 0002:0000c894       _lstrlenA@4                1001d894 f   kernel32:KERNEL32.dll
+ 0002:0000c89a       _TerminateProcess@8        1001d89a f   kernel32:KERNEL32.dll
+ 0002:0000c8a0       _UnhandledExceptionFilter@4 1001d8a0 f   kernel32:KERNEL32.dll
+ 0002:0000c8a6       _SetUnhandledExceptionFilter@4 1001d8a6 f   kernel32:KERNEL32.dll
+ 0002:0000c8ac       _QueryPerformanceCounter@4 1001d8ac f   kernel32:KERNEL32.dll
+ 0002:0000c8b2       _GetTickCount@0            1001d8b2 f   kernel32:KERNEL32.dll
+ 0002:0000c8b8       _GetSystemTimeAsFileTime@4 1001d8b8 f   kernel32:KERNEL32.dll
+ 0002:0000c8be       _HeapFree@12               1001d8be f   kernel32:KERNEL32.dll
+ 0002:0000c8c4       _HeapAlloc@12              1001d8c4 f   kernel32:KERNEL32.dll
+ 0002:0000c8ca       _GetProcessHeap@0          1001d8ca f   kernel32:KERNEL32.dll
+ 0002:0000c8d0       _GetModuleFileNameW@12     1001d8d0 f   kernel32:KERNEL32.dll
+ 0002:0000c8d6       _VirtualQuery@12           1001d8d6 f   kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    1001f000     MSVCRTD:cinitexe.obj
+ 0003:00000104       ___xc_z                    1001f104     MSVCRTD:cinitexe.obj
+ 0003:00000208       ___xi_a                    1001f208     MSVCRTD:cinitexe.obj
+ 0003:00000410       ___xi_z                    1001f410     MSVCRTD:cinitexe.obj
+ 0003:0000053c       ??_C@_0BE@KOBJHIEE@QueueUserAPCEx_Init?$AA@ 1001f53c     pthread.obj
+ 0003:00000554       ??_C@_0P@GONKDLPM@QueueUserAPCEx?$AA@ 1001f554     pthread.obj
+ 0003:00000568       ??_C@_0M@ECBNCLML@QUSEREX?4DLL?$AA@ 1001f568     pthread.obj
+ 0003:00000578       ??_C@_0BL@FOMKKFPM@InterlockedCompareExchange?$AA@ 1001f578     pthread.obj
+ 0003:00000598       ??_C@_0N@NHGLKGEC@KERNEL32?4DLL?$AA@ 1001f598     pthread.obj
+ 0003:000005a8       ??_C@_0BE@ELLNKNLF@QueueUserAPCEx_Fini?$AA@ 1001f5a8     pthread.obj
+ 0003:000005c0       __pRawDllMain              1001f5c0     MSVCRTD:crtdll.obj
+ 0003:000005c0       __pDefaultRawDllMain       1001f5c0     MSVCRTD:crtdll.obj
+ 0003:000005c4       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 1001f5c4     MSVCRTD:crtdll.obj
+ 0003:00000600       ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ 1001f600     MSVCRTD:_error_.obj
+ 0003:00000624       ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ 1001f624     MSVCRTD:_error_.obj
+ 0003:00000658       ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ 1001f658     MSVCRTD:_error_.obj
+ 0003:00000698       ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ 1001f698     MSVCRTD:_error_.obj
+ 0003:000006c0       ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ 1001f6c0     MSVCRTD:_error_.obj
+ 0003:00000818       ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ 1001f818     MSVCRTD:_error_.obj
+ 0003:000009e0       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ 1001f9e0     MSVCRTD:_error_.obj
+ 0003:00000a08       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ 1001fa08     MSVCRTD:_error_.obj
+ 0003:00000a20       ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ 1001fa20     MSVCRTD:_error_.obj
+ 0003:00000a38       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1001fa38     MSVCRTD:_error_.obj
+ 0003:00000a88       ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ 1001fa88     MSVCRTD:_error_.obj
+ 0003:00000b0c       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ 1001fb0c     MSVCRTD:_error_.obj
+ 0003:00000b40       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ 1001fb40     MSVCRTD:_error_.obj
+ 0003:00000b98       ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ 1001fb98     MSVCRTD:_error_.obj
+ 0003:00000ba4       ??_C@_02LLMPMKNF@?$DO?5?$AA@ 1001fba4     MSVCRTD:_error_.obj
+ 0003:00000ba8       ??_C@_01EEMJAFIK@?6?$AA@   1001fba8     MSVCRTD:_error_.obj
+ 0003:00000bac       ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ 1001fbac     MSVCRTD:_error_.obj
+ 0003:00000bc8       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ 1001fbc8     MSVCRTD:_error_.obj
+ 0003:00000c20       ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ 1001fc20     MSVCRTD:_error_.obj
+ 0003:00000c30       ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ 1001fc30     MSVCRTD:_error_.obj
+ 0003:00000c3c       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ 1001fc3c     MSVCRTD:_error_.obj
+ 0003:00000c70       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ 1001fc70     MSVCRTD:_error_.obj
+ 0003:00000c7c       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 1001fc7c     MSVCRTD:_error_.obj
+ 0003:00000c88       ??_C@_0L@GMPLCCII@user32?4dll?$AA@ 1001fc88     MSVCRTD:_error_.obj
+ 0003:00000c98       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 1001fc98     MSVCRTD:_error_.obj
+ 0003:00000ca0       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ 1001fca0     MSVCRTD:_error_.obj
+ 0003:00000ce0       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ 1001fce0     MSVCRTD:_userapi_.obj
+ 0003:00000d08       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ 1001fd08     MSVCRTD:_userapi_.obj
+ 0003:00000d3c       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ 1001fd3c     MSVCRTD:_userapi_.obj
+ 0003:00000d58       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ 1001fd58     MSVCRTD:_userapi_.obj
+ 0003:00000d8c       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ 1001fd8c     MSVCRTD:_userapi_.obj
+ 0003:00000dd0       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 1001fdd0     MSVCRTD:tncleanup.obj
+ 0003:00000dd4       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 1001fdd4     MSVCRTD:tncleanup.obj
+ 0003:00000dd8       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1001fdd8     MSVCRTD:tncleanup.obj
+ 0003:00000ddc       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 1001fddc     MSVCRTD:tncleanup.obj
+ 0003:00000de0       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 1001fde0     MSVCRTD:tncleanup.obj
+ 0003:00000de4       ??_C@_0M@EKFFODEC@MSPDB80?4DLL?$AA@ 1001fde4     MSVCRTD:_pdblkup_.obj
+ 0003:00000df4       ??_C@_01KDCPPGHE@r?$AA@    1001fdf4     MSVCRTD:_pdblkup_.obj
+ 0003:00000df8       ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ 1001fdf8     MSVCRTD:_pdblkup_.obj
+ 0003:00000e0c       ??_C@_0BF@BMIHBHCA@EnvironmentDirectory?$AA@ 1001fe0c     MSVCRTD:_pdblkup_.obj
+ 0003:00000e28       ??_C@_0CN@JNNIHDGH@SOFTWARE?2Microsoft?2VisualStudio?2@ 1001fe28     MSVCRTD:_pdblkup_.obj
+ 0003:00000e60       ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ 1001fe60     MSVCRTD:_pdblkup_.obj
+ 0003:00000e70       ??_C@_0BB@HHEIPGME@RegQueryValueExA?$AA@ 1001fe70     MSVCRTD:_pdblkup_.obj
+ 0003:00000e84       ??_C@_0O@DCOGKJGG@RegOpenKeyExA?$AA@ 1001fe84     MSVCRTD:_pdblkup_.obj
+ 0003:00000e94       ??_C@_0N@JJPEKNFO@ADVAPI32?4DLL?$AA@ 1001fe94     MSVCRTD:_pdblkup_.obj
+ 0003:00001158       ___rtc_iaa                 10020158     MSVCRTD:_initsect_.obj
+ 0003:00001360       ___rtc_izz                 10020360     MSVCRTD:_initsect_.obj
+ 0003:00001464       ___rtc_taa                 10020464     MSVCRTD:_initsect_.obj
+ 0003:0000166c       ___rtc_tzz                 1002066c     MSVCRTD:_initsect_.obj
+ 0004:00000000       _ptw32_threadReuseTop      10022000     pthread.obj
+ 0004:00000004       _ptw32_threadReuseBottom   10022004     pthread.obj
+ 0004:00000008       _ptw32_smp_system          10022008     pthread.obj
+ 0004:0000000c       _ptw32_once_control        1002200c     pthread.obj
+ 0004:00000034       ___security_cookie         10022034     MSVCRTD:gs_cookie.obj
+ 0004:00000038       ___security_cookie_complement 10022038     MSVCRTD:gs_cookie.obj
+ 0004:00000040       ?_RTC_ErrorLevels@@3PAHA   10022040     MSVCRTD:_error_.obj
+ 0004:00000058       ___native_dllmain_reason   10022058     MSVCRTD:natstart.obj
+ 0004:0000005c       ___native_vcclrit_reason   1002205c     MSVCRTD:natstart.obj
+ 0004:00000188       _ptw32_processInitialized  10022188     pthread.obj
+ 0004:0000018c       _ptw32_selfThreadKey       1002218c     pthread.obj
+ 0004:00000190       _ptw32_cleanupKey          10022190     pthread.obj
+ 0004:00000194       _ptw32_cond_list_head      10022194     pthread.obj
+ 0004:00000198       _ptw32_cond_list_tail      10022198     pthread.obj
+ 0004:0000019c       _ptw32_concurrency         1002219c     pthread.obj
+ 0004:000001a0       _ptw32_features            100221a0     pthread.obj
+ 0004:000001a4       _ptw32_interlocked_compare_exchange 100221a4     pthread.obj
+ 0004:000001a8       _ptw32_register_cancelation 100221a8     pthread.obj
+ 0004:000001bc       ?wsprintffp@@3P6AHPADPBDZZA 100221bc     MSVCRTD:_error_.obj
+ 0004:00000594       __forceCRTManifestRTM      10022594     MSVCRTD:crtmanifestrtm.obj
+ 0004:00000598       ?__type_info_root_node@@3U__type_info_node@@A 10022598     MSVCRTD:tncleanup.obj
+ 0004:000005c0       _ptw32_spinlock_test_init_lock 100225c0     <common>
+ 0004:00000600       _ptw32_cond_list_lock      10022600     <common>
+ 0004:00000620       _ptw32_rwlock_test_init_lock 10022620     <common>
+ 0004:00000640       _ptw32_thread_reuse_lock   10022640     <common>
+ 0004:00000660       _ptw32_cond_test_init_lock 10022660     <common>
+ 0004:00000680       _ptw32_mutex_test_init_lock 10022680     <common>
+ 0004:00000698       __adjust_fdiv              10022698     <common>
+ 0004:000006a4       ___native_startup_state    100226a4     <common>
+ 0004:000006b4       ___native_startup_lock     100226b4     <common>
+ 0004:000006b8       ___onexitend               100226b8     <common>
+ 0004:000006c8       ___onexitbegin             100226c8     <common>
+ 0004:000006cc       ___dyn_tls_init_callback   100226cc     <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_WS2_32 10023000     ws2_32:WS2_32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_KERNEL32 10023014     kernel32:KERNEL32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_MSVCR90D 10023028     MSVCRTD:MSVCR90D.dll
+ 0005:0000003c       __NULL_IMPORT_DESCRIPTOR   1002303c     ws2_32:WS2_32.dll
+ 0005:00000280       __imp__VirtualQuery@12     10023280     kernel32:KERNEL32.dll
+ 0005:00000284       __imp__GetModuleFileNameW@12 10023284     kernel32:KERNEL32.dll
+ 0005:00000288       __imp__GetProcessHeap@0    10023288     kernel32:KERNEL32.dll
+ 0005:0000028c       __imp__InitializeCriticalSection@4 1002328c     kernel32:KERNEL32.dll
+ 0005:00000290       __imp__DeleteCriticalSection@4 10023290     kernel32:KERNEL32.dll
+ 0005:00000294       __imp__LeaveCriticalSection@4 10023294     kernel32:KERNEL32.dll
+ 0005:00000298       __imp__EnterCriticalSection@4 10023298     kernel32:KERNEL32.dll
+ 0005:0000029c       __imp__CloseHandle@4       1002329c     kernel32:KERNEL32.dll
+ 0005:000002a0       __imp__InterlockedIncrement@4 100232a0     kernel32:KERNEL32.dll
+ 0005:000002a4       __imp__WaitForSingleObject@8 100232a4     kernel32:KERNEL32.dll
+ 0005:000002a8       __imp__GetProcessAffinityMask@12 100232a8     kernel32:KERNEL32.dll
+ 0005:000002ac       __imp__GetCurrentProcess@0 100232ac     kernel32:KERNEL32.dll
+ 0005:000002b0       __imp__InterlockedDecrement@4 100232b0     kernel32:KERNEL32.dll
+ 0005:000002b4       __imp__ResetEvent@4        100232b4     kernel32:KERNEL32.dll
+ 0005:000002b8       __imp__SetThreadContext@8  100232b8     kernel32:KERNEL32.dll
+ 0005:000002bc       __imp__GetThreadContext@8  100232bc     kernel32:KERNEL32.dll
+ 0005:000002c0       __imp__SetEvent@4          100232c0     kernel32:KERNEL32.dll
+ 0005:000002c4       __imp__ResumeThread@4      100232c4     kernel32:KERNEL32.dll
+ 0005:000002c8       __imp__SuspendThread@4     100232c8     kernel32:KERNEL32.dll
+ 0005:000002cc       __imp__GetThreadPriority@4 100232cc     kernel32:KERNEL32.dll
+ 0005:000002d0       __imp__InterlockedExchange@8 100232d0     kernel32:KERNEL32.dll
+ 0005:000002d4       __imp__DuplicateHandle@28  100232d4     kernel32:KERNEL32.dll
+ 0005:000002d8       __imp__GetCurrentThread@0  100232d8     kernel32:KERNEL32.dll
+ 0005:000002dc       __imp__GetCurrentThreadId@0 100232dc     kernel32:KERNEL32.dll
+ 0005:000002e0       __imp__CreateEventA@16     100232e0     kernel32:KERNEL32.dll
+ 0005:000002e4       __imp__WaitForMultipleObjects@16 100232e4     kernel32:KERNEL32.dll
+ 0005:000002e8       __imp__Sleep@4             100232e8     kernel32:KERNEL32.dll
+ 0005:000002ec       __imp__FreeLibrary@4       100232ec     kernel32:KERNEL32.dll
+ 0005:000002f0       __imp__GetProcAddress@8    100232f0     kernel32:KERNEL32.dll
+ 0005:000002f4       __imp__LoadLibraryA@4      100232f4     kernel32:KERNEL32.dll
+ 0005:000002f8       __imp__TlsSetValue@8       100232f8     kernel32:KERNEL32.dll
+ 0005:000002fc       __imp__SetThreadPriority@8 100232fc     kernel32:KERNEL32.dll
+ 0005:00000300       __imp__GetLastError@0      10023300     kernel32:KERNEL32.dll
+ 0005:00000304       __imp__OpenProcess@12      10023304     kernel32:KERNEL32.dll
+ 0005:00000308       __imp__GetCurrentProcessId@0 10023308     kernel32:KERNEL32.dll
+ 0005:0000030c       __imp__CreateSemaphoreA@16 1002330c     kernel32:KERNEL32.dll
+ 0005:00000310       __imp__ReleaseSemaphore@12 10023310     kernel32:KERNEL32.dll
+ 0005:00000314       __imp__GetExitCodeThread@8 10023314     kernel32:KERNEL32.dll
+ 0005:00000318       __imp__TlsAlloc@0          10023318     kernel32:KERNEL32.dll
+ 0005:0000031c       __imp__TlsFree@4           1002331c     kernel32:KERNEL32.dll
+ 0005:00000320       __imp__SetLastError@4      10023320     kernel32:KERNEL32.dll
+ 0005:00000324       __imp__TlsGetValue@4       10023324     kernel32:KERNEL32.dll
+ 0005:00000328       __imp__HeapFree@12         10023328     kernel32:KERNEL32.dll
+ 0005:0000032c       __imp__GetSystemTimeAsFileTime@4 1002332c     kernel32:KERNEL32.dll
+ 0005:00000330       __imp__HeapAlloc@12        10023330     kernel32:KERNEL32.dll
+ 0005:00000334       __imp__GetTickCount@0      10023334     kernel32:KERNEL32.dll
+ 0005:00000338       __imp__QueryPerformanceCounter@4 10023338     kernel32:KERNEL32.dll
+ 0005:0000033c       __imp__SetUnhandledExceptionFilter@4 1002333c     kernel32:KERNEL32.dll
+ 0005:00000340       __imp__UnhandledExceptionFilter@4 10023340     kernel32:KERNEL32.dll
+ 0005:00000344       __imp__TerminateProcess@8  10023344     kernel32:KERNEL32.dll
+ 0005:00000348       __imp__lstrlenA@4          10023348     kernel32:KERNEL32.dll
+ 0005:0000034c       __imp__MultiByteToWideChar@24 1002334c     kernel32:KERNEL32.dll
+ 0005:00000350       __imp__WideCharToMultiByte@32 10023350     kernel32:KERNEL32.dll
+ 0005:00000354       __imp__DebugBreak@0        10023354     kernel32:KERNEL32.dll
+ 0005:00000358       __imp__RaiseException@16   10023358     kernel32:KERNEL32.dll
+ 0005:0000035c       __imp__IsDebuggerPresent@0 1002335c     kernel32:KERNEL32.dll
+ 0005:00000360       __imp__InterlockedCompareExchange@12 10023360     kernel32:KERNEL32.dll
+ 0005:00000364       \177KERNEL32_NULL_THUNK_DATA 10023364     kernel32:KERNEL32.dll
+ 0005:000003bc       __imp___free_dbg           100233bc     MSVCRTD:MSVCR90D.dll
+ 0005:000003c0       __imp___encoded_null       100233c0     MSVCRTD:MSVCR90D.dll
+ 0005:000003c4       __imp___decode_pointer     100233c4     MSVCRTD:MSVCR90D.dll
+ 0005:000003c8       __imp___CrtSetCheckCount   100233c8     MSVCRTD:MSVCR90D.dll
+ 0005:000003cc       __imp___initterm           100233cc     MSVCRTD:MSVCR90D.dll
+ 0005:000003d0       __imp___initterm_e         100233d0     MSVCRTD:MSVCR90D.dll
+ 0005:000003d4       __imp___amsg_exit          100233d4     MSVCRTD:MSVCR90D.dll
+ 0005:000003d8       __imp___adjust_fdiv        100233d8     MSVCRTD:MSVCR90D.dll
+ 0005:000003dc       __imp____CppXcptFilter     100233dc     MSVCRTD:MSVCR90D.dll
+ 0005:000003e0       __imp___crt_debugger_hook  100233e0     MSVCRTD:MSVCR90D.dll
+ 0005:000003e4       __imp____clean_type_info_names_internal 100233e4     MSVCRTD:MSVCR90D.dll
+ 0005:000003e8       __imp___unlock             100233e8     MSVCRTD:MSVCR90D.dll
+ 0005:000003ec       __imp____dllonexit         100233ec     MSVCRTD:MSVCR90D.dll
+ 0005:000003f0       __imp___lock               100233f0     MSVCRTD:MSVCR90D.dll
+ 0005:000003f4       __imp___onexit             100233f4     MSVCRTD:MSVCR90D.dll
+ 0005:000003f8       __imp___except_handler4_common 100233f8     MSVCRTD:MSVCR90D.dll
+ 0005:000003fc       __imp___malloc_dbg         100233fc     MSVCRTD:MSVCR90D.dll
+ 0005:00000400       __imp___encode_pointer     10023400     MSVCRTD:MSVCR90D.dll
+ 0005:00000404       __imp___CRT_RTC_INITW      10023404     MSVCRTD:MSVCR90D.dll
+ 0005:00000408       __imp___ftime64            10023408     MSVCRTD:MSVCR90D.dll
+ 0005:0000040c       __imp__memset              1002340c     MSVCRTD:MSVCR90D.dll
+ 0005:00000410       __imp___beginthreadex      10023410     MSVCRTD:MSVCR90D.dll
+ 0005:00000414       __imp__malloc              10023414     MSVCRTD:MSVCR90D.dll
+ 0005:00000418       __imp__exit                10023418     MSVCRTD:MSVCR90D.dll
+ 0005:0000041c       __imp__longjmp             1002341c     MSVCRTD:MSVCR90D.dll
+ 0005:00000420       __imp___errno              10023420     MSVCRTD:MSVCR90D.dll
+ 0005:00000424       __imp__calloc              10023424     MSVCRTD:MSVCR90D.dll
+ 0005:00000428       __imp__memcpy              10023428     MSVCRTD:MSVCR90D.dll
+ 0005:0000042c       __imp___endthreadex        1002342c     MSVCRTD:MSVCR90D.dll
+ 0005:00000430       __imp__free                10023430     MSVCRTD:MSVCR90D.dll
+ 0005:00000434       __imp___setjmp3            10023434     MSVCRTD:MSVCR90D.dll
+ 0005:00000438       \177MSVCR90D_NULL_THUNK_DATA 10023438     MSVCRTD:MSVCR90D.dll
+ 0005:0000047c       __imp__WSAGetLastError@0   1002347c     ws2_32:WS2_32.dll
+ 0005:00000480       __imp__WSASetLastError@4   10023480     ws2_32:WS2_32.dll
+ 0005:00000484       \177WS2_32_NULL_THUNK_DATA 10023484     ws2_32:WS2_32.dll
+
+ entry point at        0002:000002f3
+
